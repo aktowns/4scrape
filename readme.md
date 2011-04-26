@@ -1,17 +1,18 @@
+Scrapes 4chan frontpages, storing all the content like the following:
+=============
+
 run with ./4scrape.js
 
 tweak values, stores everything in a mongodb instance running locally
 mongo isn't storing, as i need it to use gridstore
 
-uses:  
+### uses ###
 - [node-mongodb-native](https://github.com/christkv/node-mongodb-native)  
 - [node-htmlparser](https://github.com/tautologistics/node-htmlparser)  
 - [node-soupselect](https://github.com/harryf/node-soupselect)  
 - [underscore](http://documentcloud.github.com/underscore/)  
   
-
-Scrapes 4chan frontpages, storing all the content like the following:
-
+###  example model ###
 
     { board: '/b/',
       url: 'res/325093338',
