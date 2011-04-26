@@ -1,5 +1,4 @@
-Scrapes 4chan frontpages, storing all the content like the following:
-=============
+### Scrapes 4chan frontpages ###
 
 run with ./4scrape.js
 
