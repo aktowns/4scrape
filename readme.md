@@ -4,7 +4,7 @@ tweak values, stores everything in a mongodb instance running locally
 mongo isn't storing, as i need it to use gridstore
 
 Scrapes 4chan frontpages, storing all the content like the following:
-``` javascript
+```javascript
 { board: '/b/',
   url: 'res/325093338',
   posts: 
